@@ -9,7 +9,7 @@ class Home extends Component{
         const { navigate } = this.props.navigation;
         return(
 
-            <View style={styles.warpper}>
+            <View style={styles.wrapper}>
                 <Text style={styles.H1}>Hello Home page</Text>
  
 
@@ -37,7 +37,7 @@ export default Home;
 
 const styles = StyleSheet.create({
 
-    warpper:{
+    wrapper:{
         backgroundColor: '#F7DC6F',
         padding: 5,
         flex:1,
