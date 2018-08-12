@@ -14,7 +14,7 @@ class Home extends Component{
  
 
                 <TouchableOpacity  onPress={() => navigate('Work') }  style={styles.ButtonContainer} >
-                    <Text style={styles.buttonText }>Go to Work Page</Text>
+                    <Text style={styles.buttonText }>Go to Tab's Page (Work)</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity  onPress={() => navigate('About') }  style={styles.ButtonContainer} >
