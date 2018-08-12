@@ -21,6 +21,10 @@ class Home extends Component{
                     <Text style={styles.buttonText }>Go to About Page</Text>
                 </TouchableOpacity>
 
+                <TouchableOpacity  onPress={() => navigate('Forms') }  style={styles.ButtonContainer} >
+                    <Text style={styles.buttonText }>Go to Form Page</Text>
+                </TouchableOpacity>
+
 
 
 
