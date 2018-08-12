@@ -9,7 +9,7 @@ class Hard extends Component{
         return(
 
             <View style={styles.wrapper}>
-                <Text>Hello Hard page</Text>
+                <Text style={styles.H1}>It's Hard page</Text>
             </View>
         );
     }
@@ -23,8 +23,20 @@ export default Hard;
 const styles = StyleSheet.create({
 
     wrapper:{
-        backgroundColor: '#F7DC6F',
+        backgroundColor: '#F8C471',
         padding: 5,
         flex:1,
+        flexDirection:'row',
+        height:900,
+        textAlign: 'center',
+    },
+    H1:{
+        fontSize: 30,
+        color:'#333333',
+        flex:1,
+        textAlignVertical:'center',
+        textAlign: 'center',
+
+
     }
 })
